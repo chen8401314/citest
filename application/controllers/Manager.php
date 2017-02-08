@@ -20,7 +20,7 @@ class Manager extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('manager/manager1');
+		$this->load->view('manager/manager');
 	}
 	public function managerList()
 	{
